@@ -1,0 +1,17 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="district-health-board-2015">
+    <SrcDataSource relativeToVRT="1">district-health-board-2015.csv</SrcDataSource>
+    <FeatureCount>22</FeatureCount>
+    <GeometryField field="WKT" reportSrcColumn="FALSE">
+      <GeometryType>wkbPolygon</GeometryType>
+      <SRS>EPSG:27200</SRS>
+      <ExtentXMin>1977319.04625231</ExtentXMin>
+      <ExtentYMin>5263609.88158922</ExtentYMin>
+      <ExtentXMax>3024707.16951237</ExtentXMax>
+      <ExtentYMax>6804605.08543722</ExtentYMax>
+    </GeometryField>
+    <Field name="DHB2015_Code" src="DHB2015_Code" type="String" width="254" />
+    <Field name="DHB2015_Name" src="DHB2015_Name" type="String" width="254" />
+    <Field name="Shape_Length" src="Shape_Length" type="Real" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>
